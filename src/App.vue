@@ -1,26 +1,50 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <HeaderSection />
+    <ProfessionalSummary />
+    <TechnicalSkills />
+    <ProfessionalCompetencies />
+    <ProfessionalExperience />
+    <EducationSection />
+    <CertificationsSection />
+    <LanguagesSection />
+    <FooterSection />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderSection from "./components/HeaderSection.vue";
+import ProfessionalSummary from "./components/ProfessionalSummary.vue";
+import TechnicalSkills from "./components/TechnicalSkills.vue";
+import ProfessionalCompetencies from "./components/ProfessionalCompetencies.vue";
+import ProfessionalExperience from "./components/ProfessionalExperience.vue";
+import EducationSection from "./components/EducationSection.vue";
+import CertificationsSection from "./components/CertificationsSection.vue";
+import LanguagesSection from "./components/LanguagesSection.vue";
+import FooterSection from "./components/FooterSection.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    HeaderSection,
+    ProfessionalSummary,
+    TechnicalSkills,
+    ProfessionalCompetencies,
+    ProfessionalExperience,
+    EducationSection,
+    CertificationsSection,
+    LanguagesSection,
+    FooterSection,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  color: #333;
 }
 </style>
