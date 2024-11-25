@@ -12,7 +12,7 @@
         <strong>Cloud & DevOps:</strong> AWS Cloud Services, CI/CD, GitHub, GitLab, Heroku
       </div>
       <div class="skill-category">
-        <strong>Databases:</strong> PostgreSQL, SQL
+        <strong>Databases:</strong>MySQL, PostgreSQL, SQL
       </div>
       <div class="skill-category">
         <strong>Testing:</strong> Unit Testing (Jest, PyTest), Selenium, Cypress, TestRail, API Testing, TDD
