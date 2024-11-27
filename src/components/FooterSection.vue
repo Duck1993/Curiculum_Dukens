@@ -3,7 +3,7 @@
       <div class="content has-text-centered">
         <p>
           <strong></strong> By <a href="https://tu-sitio-web.com">Dukens Robert Hilaire</a>. 
-          © {{ currentYear }} HDR | Alls Rights Reserved
+          © {{ currentYear }} HDR | All Rights Reserved
         </p>
       </div>
     </footer>
