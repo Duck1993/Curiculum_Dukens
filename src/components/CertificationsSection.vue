@@ -2,6 +2,7 @@
   <div>
     <h2>Certifications</h2>
     <ul>
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><li>Hola</li></a>
       <li>Cloud Computing Activate - 2023</li>
       <li>Python Total - 2024</li>
       <li>Python Aplicado - 2024</li>
