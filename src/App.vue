@@ -9,6 +9,7 @@
     <CertificationsSection />
     <LanguagesSection />
     <FooterSection />
+    <ProjectsSection />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import EducationSection from "./components/EducationSection.vue";
 import CertificationsSection from "./components/CertificationsSection.vue";
 import LanguagesSection from "./components/LanguagesSection.vue";
 import FooterSection from "./components/FooterSection.vue";
+import ProjectsSection from "./components/ProjectsSection.vue";
 
 export default {
   components: {
@@ -34,6 +36,7 @@ export default {
     CertificationsSection,
     LanguagesSection,
     FooterSection,
+    ProjectsSection,
   },
 };
 </script>
