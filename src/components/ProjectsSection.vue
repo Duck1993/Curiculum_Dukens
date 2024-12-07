@@ -63,7 +63,7 @@
           {
             title: 'Portafolio',
             description:
-              'Built a responsive portfolio website using Vue.js, showcasing my professional skills, projects, and contact information.',
+              'Responsive portfolio website using Vue.js, showcasing my professional skills, projects, and contact information.',
             link: 'https://github.com/Duck1993/Curiculum_Dukens',
             image: require('/public/portafolio.jpeg'),
           },
